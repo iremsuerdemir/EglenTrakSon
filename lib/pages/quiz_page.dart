@@ -146,7 +146,7 @@ class _QuizPageState extends State<QuizPage> with TickerProviderStateMixin {
   }
 
   void startTimer() {
-    timer = Timer.periodic(Duration(seconds: 1), (t) async {
+    timer = Timer.periodic(Duration(seconds: 2), (t) async {
       if (timeLeft > 0) {
         setState(() => timeLeft--);
         if (timeLeft == 10) {
@@ -492,6 +492,27 @@ class _QuizPageState extends State<QuizPage> with TickerProviderStateMixin {
                                             ),
                                           ],
                                         ),
+                                        // YENİ: Kullanıcı Bilgisi
+                                        Row(
+                                          children: [
+                                            Icon(
+                                              Icons
+                                                  .account_circle, // veya Image.asset(...)
+                                              color: Colors.white,
+                                              size: 24,
+                                            ),
+                                            SizedBox(width: 6),
+                                            Text(
+                                              UserService.user?.username ??
+                                                  "Misafir", // Kullanıcı adı veya "Misafir"
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 18,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+
                                         Row(
                                           children: [
                                             Icon(
