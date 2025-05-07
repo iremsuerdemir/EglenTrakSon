@@ -8058,11 +8058,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\erdem\\Desktop\\Gorsel_Programlama_Proje-1\\ProjeBackend\\ProjeBackend.csproj",
+      "projectUniqueName": "C:\\Users\\erdem\\Desktop\\EglenTrakSon\\ProjeBackend\\ProjeBackend.csproj",
       "projectName": "ProjeBackend",
-      "projectPath": "C:\\Users\\erdem\\Desktop\\Gorsel_Programlama_Proje-1\\ProjeBackend\\ProjeBackend.csproj",
+      "projectPath": "C:\\Users\\erdem\\Desktop\\EglenTrakSon\\ProjeBackend\\ProjeBackend.csproj",
       "packagesPath": "C:\\Users\\erdem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\erdem\\Desktop\\Gorsel_Programlama_Proje-1\\ProjeBackend\\obj\\",
+      "outputPath": "C:\\Users\\erdem\\Desktop\\EglenTrakSon\\ProjeBackend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\erdem\\AppData\\Roaming\\NuGet\\NuGet.Config",

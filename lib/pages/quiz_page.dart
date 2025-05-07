@@ -294,6 +294,7 @@ class _QuizPageState extends State<QuizPage> with TickerProviderStateMixin {
     if (usedSkipQuestion || questionAnswered) return;
     setState(() => usedSkipQuestion = true);
     timer?.cancel();
+    player.stop();
     goToNextQuestion();
   }
 
