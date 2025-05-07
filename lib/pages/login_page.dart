@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gorsel_programlama_proje/components/custom_text_field.dart';
 import 'package:gorsel_programlama_proje/components/gradient_border.dart';
+import 'package:gorsel_programlama_proje/pages/quizintropage.dart';
 import 'package:gorsel_programlama_proje/services/user_service.dart';
 
 class LoginPage extends StatefulWidget {
@@ -140,7 +141,12 @@ class _LoginPageState extends State<LoginPage>
                                   );
                                   return;
                                 }
-                                Navigator.pop(context);
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => QuizIntroPage(),
+                                  ),
+                                );
                               });
                             },
                             child:

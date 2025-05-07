@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gorsel_programlama_proje/pages/home_page.dart';
+import 'package:gorsel_programlama_proje/pages/login_page.dart';
 import 'package:intl/date_symbol_data_local.dart';
 
 void main() async {
@@ -48,7 +49,7 @@ void main() async {
           ),
         ),
       ),
-      home: HomePage(),
+      home: LoginPage(),
     ),
   );
 }
